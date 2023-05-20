@@ -1,0 +1,162 @@
+body{
+    background:linear-gradient(to top,blue,blue);
+    margin: 0 auto;
+}
+header{
+    background-color: #d41e62;
+    height: 55px;
+    width: 80%;
+    margin: 10%;
+    margin-top: 15px;
+    box-shadow: 5px 5px 5px black;
+}
+@keyframes more1{
+    form{ }
+    to{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+#img1{
+    width: 40px;
+    margin-left: 990px;
+    border-radius: 50%;
+    border: dotted 4px white;
+    position: relative;
+    top: 5px;
+    display: inline-block;
+
+}
+h1{
+    color: white;
+    font-size: 30px;
+    text-shadow: 5px 5px 5px black;
+    font-weight: bold;
+    font-family:Tahoma,;
+    margin-left: 815px;
+    display: inline-block;
+    position: relative;
+    bottom: 65px;
+}
+nav{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    padding-bottom: 50px;
+    position: relative;
+    bottom: 120px;
+}
+a:hover{
+    color: #fce786;
+    text-decoration: underline;
+    padding: 8px;
+}
+div{
+    background: linear-gradient(to top,cyan,blue);
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 700px;
+}
+fieldset{
+    background:linear-gradient(to top,#2d4d5c);
+    width: 50%;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 150px;
+    border-left: blueviolet dotted 5px;
+    border-right: blueviolet dotted 5px;
+    border-top:  solid orangered 4px;
+    border-bottom: solid orangered 4px;
+    
+}
+legend{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    font-family:Tahoma;
+    text-align: center;
+    text-decoration: underline dotted 9px rgb(255, 0, 157);
+}
+input{
+    text-align: center;
+    margin-left: 110px;
+    position: relative;
+    top: 22px;
+    left: 65px;
+    box-shadow: 5px 5px 3px black;
+}
+#img2{
+    width: 160px;
+    border-radius: 50%;
+    margin-left: 120px;
+    position: relative;
+    top: 19px;
+    right: 85px;
+    z-index: 2;
+}
+#a4{
+    color: blue;
+    position: relative;
+    top: 95px;
+    margin-left: 105px;
+    text-decoration: underline solid blue;
+}
+#b1{
+    position: relative;
+    top: 35px;
+    left: 216px;
+    width: 100px;
+    height: 28px;
+    border-radius: 15%;
+}
+input:hover{
+    animation: more1 1s linear infinite;
+    border-bottom: rgb(10, 241, 10) double 3px;
+}
+input:focus{
+background-color: red;
+}
+footer{
+    background-color: #d41e62;
+    height: 40px;
+    width: 80%;
+    margin: o auto;
+    box-shadow: 5px 5px 5px black;
+    position: relative;
+    bottom: 255px;
+    left: 138px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+main{
+    width: 80%;
+    height: 720px;
+    border: solid 1px blueviolet;
+    margin: o auto;
+    margin: 10%;
+    position: relative;
+    bottom: 128px;
+    background-color: #d9d9d9;
+}
+#div3{
+    width: 230px;
+    height: 200px;
+    border:solid 3px yellow;
+    border-radius: 75%;
+    background: radial-gradient(circle, red,brown,white);
+    margin: 0 auto;
+    position: relative;
+    top: 16px;
+}
